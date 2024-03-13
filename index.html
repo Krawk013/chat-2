@@ -1,0 +1,38 @@
+<!-- Same as initial index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div id="chat-container">
+
+    <div id="room-container">
+      <h3>Rooms</h3>
+      <ul id="room-list"></ul>
+      <input id="room-name">
+      <button id="create-room">+</button>
+    </div>
+
+    <div id="chat-window">
+      <div id="output"></div>
+    </div>
+
+    <input id="username" placeholder="Username">
+    
+    <div id="send-container">
+      <input id="message" placeholder="Message">
+      <button id="send">Send</button> 
+    </div>
+
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

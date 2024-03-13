@@ -1,0 +1,33 @@
+/* Same CSS */ 
+
+#chat-container {
+  /* ... */
+}
+
+/* Room list styles */
+
+#room-container {
+  width: 200px;
+  float: left; 
+}
+
+#room-list {
+  list-style: none;
+  padding: 0;
+}
+
+#room-list li {
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+/* Send container */
+
+#send-container {
+  display: flex;
+}
+
+#message {
+  flex-grow: 1;
+}
